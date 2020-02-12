@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body id="wrapper">
+
+  <section id="head">
+    <div id="particles-js"></div>
+    <div id="heading">
+      <h1 id="title">Hi, I'm <span id="name">Matt Massie</span></h1>
+      <h2 id="greet">Web Developer, Business Analyst, Entrepreneur</h2>
+    </div>
+  </section>
+  <section id="about">
+    <div id="aboutWindow">
+      ABOUT ME
+    </div>
+    <div id="aboutBody">
+      <div id="aboutHeader">
+        <div id="aboutPicture">
+          <img src="./assets/mattPicture.png" alt="" id="pictureOfMe">
+        </div>
+        <div id="aboutInfo">
+          <div id="aboutInfoContainer">
+            <div class="jumbotron">
+              <h1 class="display-4">I'm Matt. </h1>
+              <p class="lead">I'm a freelance software developer, web deisgner and analyst. I live in Indianapolis,
+                Indiana with my wife and daughter.</p>
+              <hr class="my-4">
+              <p>If you are looking for ransom I can tell you I don't have money, but what I do have are a very
+                particular set of skills. Skills I have acquired over a very long career. Skills that make me a
+                nightmare for people like you. If you let my daughter go now that'll be the end of it.</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+
+          <!-- <div id="aboutCards"> -->
+
+            <div class="col-4">
+              <div class="about-card-properties">
+                <div id="tech">
+                  <img class="techItem" src="./assets/node.png" alt="">
+                  <img class="techItem" src="./assets/react.png" alt="">
+                  <img class="techItem" src="./assets/html.png" alt="">
+                  <img class="techItem" src="./assets/css.png" alt="">
+                </div>
+                <div class="card-body" id="card-body-properties">
+                  <p class="card-text">My specialty is web development. I use Javascript, HTML and CSS to create rich,
+                    interactive and functional web applications. Some examples include:</p>
+                  <ul>
+                    <li>Design highly effective sales funnels to convert your visitors to customers. </li>
+                    <li>Clean, intuitive and secure web interfaces between your clients and your data. </li>
+                    <li>Fully custom browser based applications to access and manipulate external data sources.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-4">
+              <div class="about-card-properties">
+                <div id="tech">
+                  <img class="techItem" src="./assets/python.png" alt="">
+                  <img class="techItem" src="./assets/jupyter.png" alt="">
+                  <img class="techItem" src="./assets/numpy.png" alt="">
+                  <img class="techItem" src="./assets/mpl.png" alt="">
+                </div>
+                <div class="card-body" id="card-body-properties">
+
+                  <p class="card-text">I have experience in data analysis with a concentration in financial and
+                    operational
+                    data.
+                    I can help you use your data in new ways to:
+                  </p>
+                  <ul>
+                    <li>Find patterns in your operations to emperically support decision making.</li>
+                    <li>Extract meta data from your unique data and format the insights in simple, meaningful
+                      presentations.
+                    </li>
+                    <li>Construct architectures and algorithms to store, access and make use of non-standard, complex
+                      datasets.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-4">
+              <div class="about-card-properties">
+                <div id="tech">
+                  <img class="techItem" src="./assets/./photoshop.jpg" alt="">
+                  <img class="techItem" src="./assets/illustrator.png" alt="">
+                  <img class="techItem" src="./assets/aftereffects.png" alt="">
+                  <img class="techItem" src="./assets/indesign.png" alt="">
+                </div>
+                <div class="card-body" id="card-body-properties">
+
+                  <p class="card-text">Finally, I am able to use a broad array of design software to develop media or
+                    support
+                    designers. I support design by:
+                  </p>
+                  <ul>
+                    <li>Scripting and Automating operations in many Creative Cloud products.</li>
+                    <li>Converting design ideas to web, print and broadcast ready formats.</li>
+                  </ul>
+
+
+                </div>
+              </div>
+            </div>
+
+          <!-- </div> -->
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+  <section id="portfolio">
+    <div id="portfolioWindow">
+      PORTFOLIO
+    </div>
+    <div class="carosel">
+      <div class="card text-center">
+        <div class="card-header">
+          <ul class="nav nav-tabs card-header-tabs">
+            <li class="nav-item">
+              <a id="clickNYT" class="nav-link active" >New York Times Article Search API</a>
+            </li>
+            <li class="nav-item">
+              <a id="clickHubble" class="nav-link" >Hubble Space Telescope API</a>
+            </li>
+            <li class="nav-item">
+              <a id="clickStatic" class="nav-link" >Eleven Fifty Static Website Clone</a>
+            </li>
+            <li class="nav-item">
+              <a id="clickCSS"class="nav-link" >CSS Creature</a>
+            </li>
+          </ul>
+        </div>
+        <div class="card-body">
+          
+          <img id="portfolioImage" src="./assets/nytImage.png" alt="" class="card-img">
+          <p id="portfolioDescription" class="card-text">'This project accesses the New York Time Article Search with simple search parameters and returns relevent articles.'</p>
+          <a id="portfolioLink" href="https://rmmassie.github.io/NYT-API/" class="btn btn-primary">See it in Action</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact">
+
+    <div id="contactWindow">
+      CONTACT
+    </div>
+    <div id="contactBody">
+      <div id="contactBodyText">
+        <h4>Thanks for your interest in my work.</h4>
+        <p>Let me help being your ideas to life. If you'd like to chat about ways I can help, please fill out the
+          contact form below. I'll reach out to you as soon as possible.
+        </p>
+      </div>
+
+      <form action="https://formspree.io/xrgqrwzd"
+      method="POST"> 
+        
+        <div class="form-group">
+          <label for="formName">Name</label>
+          <input name="name" type="text" class="form-control" id="formName">
+          <label for="formCompany">Company</label>
+          <input name="company" type="text" class="form-control" id="formCompany">
+          <label for="formComments">Comments</label>
+          <textarea name="comments" class="form-control" id="formComments" rows="3"></textarea>
+          <label for="formEmail">Email address</label>
+          <input name="email" type="email" class="form-control" id="formEmail">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+
+
+  </section>
+
+
+  <!-- scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="./particles.js"></script>
+  <script src="./js/app.js"></script>
+  <script src="./index.js"></script>
+
+
+</body>
+
+</html>
