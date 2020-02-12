@@ -47,7 +47,7 @@
 const starWarsGet = async (n) => {
     const response = await fetch(`https://swapi.co/api/people/${n}`);
     const json = await response.json();
-    console.log(json);
+    console.log(json[2]);
 }
 
 starWarsGet(2).then(result => console.log('This should print last'))
